@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+}
+
+/* Id */
+
+
+
+/* Estructura*/
+main{
+    background-color: rgba(0, 139, 139, 0.300);
+
+}
+
+
+h1{
+    font-style: oblique;
+    text-align: center;
+}
+
+header{
+    background-color: rgba(71, 61, 139, 0.300);
+}
+
+section{
+    background-color: rgba(148, 0, 211, 0.300);
+}
+
+h3{
+    margin: 5px;
+}
+p{
+    margin-top:inherit;
+}
+
+footer{
+    background-color: rgba(205, 92, 92, 0.300);
+}
+
+/* Clase */
+.rounded{
+    border-radius: 25px;
+    padding: 8px;
+    margin: 20px;
+}
+
+.centrado{
+    margin: auto;
+    width: 85%;
+}
+
+.imagen{
+    position: absolute;
+    width: 120px;
+    height: 15px;
+    z-index: 0;
+}
+
+.imagen img{
+    width: 80%;
+    height: auto;
+}
+
+.margen{
+    width: 50%;
+    height: auto;
+    margin-left: 6%;
+}
+
+.lista{
+    padding-left: 1%;
+}
+
+.lista li{
+    list-style: none;
+}
